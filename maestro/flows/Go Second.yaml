@@ -1,0 +1,5 @@
+appId: com.example.maestroTest
+---
+- launchApp
+- tapOn: "GoSecond"
+- assertVisible: "Second Page"

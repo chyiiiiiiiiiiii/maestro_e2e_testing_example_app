@@ -1,0 +1,5 @@
+appId: com.example.maestro_test
+---
+- launchApp
+- tapOn: "Increment"
+- assertVisible: "1"

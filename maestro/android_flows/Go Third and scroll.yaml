@@ -1,0 +1,9 @@
+appId: com.example.maestro_test
+---
+- launchApp
+- tapOn: "GoSecond"
+- tapOn: "GoThird"
+- scroll
+- assertVisible: "! - 20"
+- swipe:
+    direction: DOWN
