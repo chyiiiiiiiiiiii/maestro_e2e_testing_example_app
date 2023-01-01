@@ -17,3 +17,20 @@
 
 ## Weakness
 當需要驗證多個 flow 測試時會無法正常完成，從第二個 flow 開始不會自動操作，例如：點擊按鈕、滾動等互動行為，必須手動操作畫面讓 `Maestro` 檢查，是個很不方便的過程。這邊我透過撰寫 Shell Script 來解決問題，逐一進行個別的 flow 驗證，可以查看 [./scripts/run_test.sh](./scripts/run_test.sh)，並在最後顯示驗證結果
+
+## Contribute
+- You can star and share with other developers if you feel good and learn something from this repository.
+- If you have some ideas, please discuss them with me or commit PR.
+
+## More of me
+[![Medium](https://img.shields.io/badge/medium-fff?style=for-the-badge&logo=medium&logoColor=black)](https://yiichenhi.medium.com)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yiichenhi/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yiichenhi)
+[![instagram](https://img.shields.io/badge/instagram-C6317F?style=for-the-badge&logo=instagram&logoColor=white)](http://instagram.com/flutterluvr.yii/)
+
+## Donate and encourage me
+[![BuyMeACoffee][buy_me_a_coffee_badge]][buy_me_a_coffee]
+
+<!-- Links -->
+[buy_me_a_coffee]: https://www.buymeacoffee.com/yiichenhi
+[buy_me_a_coffee_badge]: https://img.buymeacoffee.com/button-api/?text=Sponsor&emoji=&slug=yiichenhi&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff&size=64
