@@ -1,6 +1,14 @@
 # maestro_e2e_test_example
 
-[Chinese](./README_cn.md)
+<p align="center">
+  <a href=""><img alt="Flutter" src="https://img.shields.io/badge/Flutter-Lover-blue?style=flat&logo=flutter"/></a>
+  &nbsp
+  <a href="https://medium.com/@yiichenhi"><img alt="Medium" src="https://img.shields.io/badge/Medium-Yii%20Chen-black?style=flat&logo=Medium"/></a>
+  &nbsp
+  <a href=""><img alt="" src="https://img.shields.io/github/followers/chyiiiiiiiiiiii?style=social"/></a>
+</p>
+
+[繁體中文](./README_cn.md)
 
 **Maestro** is a complete test framework that provides rich docs and APIs for developers to use. The continuous mode is very user-friendly, can effectively help write tests, and allows non-developers to participate, the overall experience is Very good, and I am looking forward to the next update.
 
