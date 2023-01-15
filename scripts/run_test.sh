@@ -6,7 +6,7 @@ caculate() { awk "BEGIN{print $*}"; }
 
 #-----
 
-directory=../maestro/flows/
+directory=./maestro/flows/
 
 successedCount=0
 failedCount=0
@@ -15,7 +15,7 @@ for entry in "$directory"*
 do
     number=$(caculate $successedCount+$failedCount+1)
     echo "---------------------- Flow $number ------------------------"
-   
+
     log=$(maestro test "$entry")
 
     if [[ $log == *"FAILED"* ]]; then
@@ -43,7 +43,7 @@ echo
 
 goodEmoji='\xE2\x9C\x85'
 badEmoji='\xE2\x9D\x8C'
-if [ "$percent" = "100" ] 
+if [ "$percent" = "100" ]
 then
     echo $goodEmoji$goodEmoji$goodEmoji
 else
@@ -57,8 +57,8 @@ if [[ $percent == *"100"* ]]; then
 else
     echo "Maestro tests failed."
     echo
-    
-    exit 1 
+
+    exit 1
 fi
 
 echo

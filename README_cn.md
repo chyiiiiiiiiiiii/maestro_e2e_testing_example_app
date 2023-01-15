@@ -1,5 +1,15 @@
 # maestro_e2e_test_example
 
+<img src="./cover.png" />
+
+<p align="center">
+  <a href=""><img alt="Flutter" src="https://img.shields.io/badge/Flutter-Lover-blue?style=flat&logo=flutter"/></a>
+  &nbsp
+  <a href="https://medium.com/@yiichenhi"><img alt="Medium" src="https://img.shields.io/badge/Medium-Yii%20Chen-black?style=flat&logo=Medium"/></a>
+  &nbsp
+  <a href=""><img alt="" src="https://img.shields.io/github/followers/chyiiiiiiiiiiii?style=social"/></a>
+</p>
+
  **Maestro** 是一個完整的測試框架，提供豐富的文件和API給開發者使用，其中的連續模式就很符合人性化，能夠有效幫助撰寫測試，而且讓非開發者也能參與，整體來說體驗很不錯，期待後續更新。
 
  本範例除了提供基本的測試範例，也有自己撰寫的 Script ，為了進行自動化多 `flow` 驗證，並提供結果報告，讓你能與CI整合

@@ -1,5 +1,7 @@
 # maestro_e2e_test_example
 
+<img src="./cover.png" />
+
 <p align="center">
   <a href=""><img alt="Flutter" src="https://img.shields.io/badge/Flutter-Lover-blue?style=flat&logo=flutter"/></a>
   &nbsp
